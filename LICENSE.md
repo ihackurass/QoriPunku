@@ -35,4 +35,4 @@ Esta licencia y su interpretación se regirán por las leyes
 
 Para permisos adicionales, contacteme
 
-Trabajando por un futuro con acceso al agua para todos.
+Desarrollado con orgullo en Perú, protegiendo espacios y controlando accesos con tecnología de vanguardia.
