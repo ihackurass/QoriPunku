@@ -53,7 +53,7 @@
    - Opciones para aprobar o denegar el acceso
 6. El administrador responde por WhatsApp ("si" o "no")
 7. El servidor recibe la respuesta y la comunica al sistema
-8. Si se aprueba, se abre la puerta y se registra el UUID automáticamente en la base de datos
+8. Si se aprueba, se abre la puerta
 9. Si se deniega, se muestra mensaje de "Acceso denegado" en el LCD
 
 ### Modo Configuración
@@ -126,7 +126,12 @@ El sistema está dividido en tres componentes principales:
    - Conectar todos los componentes según el diagrama proporcionado
    - Asegurar alimentación adecuada para todos los módulos
 
-2. **Configuración del servidor**
+2. **Instalacion de biblioteca Twilio**
+   - cd QoriPunku/
+   - composer require twilio/sdk
+   - composer show twilio/sdk
+    
+3. **Configuración del servidor**
    - Crear una carpeta `CA` en tu servidor
    - Subir los scripts de la carpeta `Web`
    - Configurar la base de datos con tus credenciales en `config.php`
